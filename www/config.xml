@@ -2,10 +2,10 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.poligon.IIHMStudent"
-        version   = "2.0.1">
-  <name>IIHM Student</name>
-  <description>IIHM Student Performance App</description>
+        id        = "com.poligon.CalcuttaYellowPage"
+        version   = "1.0.1">
+  <name>CYP</name>
+  <description>Calcutta Yellow Page app</description>
   <author href="http://poligon.in" email="info@poligononline.com">Poligon Initiative</author>
   <!--
         If you do not want any permissions to be added to your app, add the
