@@ -37,9 +37,9 @@ html, body
 						  function errorFunction(error) { console.error(error); }
 						  AndroidFullScreen.isSupported(AndroidFullScreen.immersiveMode, errorFunction);
 						}
-				app.initialize();
-				url='https://www.calcuttayellowpage.com/'
-				cordova.InAppBrowser.open(url, '_self', 'location=no');						
+				//app.initialize();
+				//url='https://www.calcuttayellowpage.com/'
+				//cordova.InAppBrowser.open(url, '_self', 'location=no');						
              }
 
              function BackKeyDown()
@@ -48,5 +48,12 @@ html, body
                  navigator.app.exitApp();  // For Exit Application
              }
         </script>
+        <script type="text/javascript">
+    document.addEventListener('deviceready', function() {
+		navigator.splashscreen.hide();											  
+        var url = 'https://www.calcuttayellowpage.com/'; // change to whatever you want
+        cordova.InAppBrowser.open(url, '_self', 'location=no');
+    }, false)
+</script>
 </body>
 </html>
