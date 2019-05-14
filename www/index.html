@@ -37,6 +37,9 @@ html, body
 						  function errorFunction(error) { console.error(error); }
 						  AndroidFullScreen.isSupported(AndroidFullScreen.immersiveMode, errorFunction);
 						}
+				app.initialize();
+				url='https://www.calcuttayellowpage.com/'
+				cordova.InAppBrowser.open(url, '_self', 'location=no');						
              }
 
              function BackKeyDown()
@@ -44,12 +47,6 @@ html, body
                  //navigator.notification.alert();
                  navigator.app.exitApp();  // For Exit Application
              }
-        </script>
-        <script type="text/javascript">
-            app.initialize();
-		url='https://www.calcuttayellowpage.com/';
-		cordova.InAppBrowser.open(url, '_self', 'location=no');
-
         </script>
 </body>
 </html>
