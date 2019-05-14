@@ -46,12 +46,6 @@
     <icon qualifier="mdpi" src="res/icon/android/icon-48-mdpi.png" />
     <icon qualifier="hdpi" src="res/icon/android/icon-72-hdpi.png" />
     <icon qualifier="xhdpi" src="res/icon/android/icon-96-xhdpi.png" />
-    <splash qualifier="ldpi" src="res/screen/android/ldpi.png" />
-    <splash qualifier="ldpi" src="res/screen/android/mdpi.png" />
-    <splash qualifier="ldpi" src="res/screen/android/hdpi.png" />
-    <splash dqualifier="ldpi" src="res/screen/android/xhdpi.png" />
-    <splash density="xxhdpi" src="res/screen/android/xxhdpi.png" />
-    <splash density="xxxhdpi" src="res/screen/android/xxxhdpi.png" />
     <splash src="res/screen/android/screen-ldpi-portrait.png"  qualifier="port-ldpi" />
     <splash src="res/screen/android/screen-mdpi-portrait.png"  qualifier="port-mdpi" />
     <splash src="res/screen/android/screen-hdpi-portrait.png"  qualifier="port-hdpi" />
