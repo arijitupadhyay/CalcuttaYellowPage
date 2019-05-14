@@ -19,16 +19,12 @@
   <preference name="disable-cursor"             value="false" />
   <preference name="android-installLocation"    value="auto" />
   <!-- Core plugins -->
-  <plugin name="cordova-plugin-battery-status"/>
   <plugin name="cordova-plugin-camera"/>
-  <plugin name="cordova-plugin-console"/>
-  <plugin name="cordova-plugin-contacts"/>
   <plugin name="cordova-plugin-device"/>
   <plugin name="cordova-plugin-device-motion"/>
   <plugin name="cordova-plugin-device-orientation"/>
   <plugin name="cordova-plugin-dialogs"/>
   <plugin name="cordova-plugin-file"/>
-  <plugin name="cordova-plugin-file-transfer"/>
   <plugin name="cordova-plugin-geolocation"/>
   <plugin name="cordova-plugin-globalization"/>
   <plugin name="cordova-plugin-inappbrowser"/>
@@ -36,27 +32,34 @@
   <plugin name="cordova-plugin-media-capture"/>
   <plugin name="cordova-plugin-network-information"/>
   <plugin name="cordova-plugin-splashscreen"/>
-  <plugin name="cordova-plugin-vibration"/>
   <plugin name="cordova-plugin-statusbar"/>
   <plugin name="cordova-plugin-whitelist"/>
   <preference name="SplashScreenDelay" value="3000" />
   <preference name="AutoHideSplashScreen" value="true" />
-  <preference name="SplashScreen" value="www/res/screen/android" />
+  <preference name="SplashScreen" value="res/screen/android" />
   <preference name="SplashMaintainAspectRatio" value="true" />
   <preference name="ShowSplashScreenSpinner" value="true" />
   <preference name="FadeSplashScreen" value="true" />
   <preference name="SplashShowOnlyFirstTime" value="true" />
   <platform name="android">
-    <icon qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
-    <icon qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
-    <icon qualifier="hdpi" src="www/res/icon/android/icon-72-hdpi.png" />
-    <icon qualifier="xhdpi" src="www/res/icon/android/icon-96-xhdpi.png" />
-    <splash density="ldpi" src="www/res/screen/android/ldpi.png" />
-    <splash density="mdpi" src="www/res/screen/android/mdpi.png" />
-    <splash density="hdpi" src="www/res/screen/android/hdpi.png" />
-    <splash density="xhdpi" src="www/res/screen/android/xhdpi.png" />
-    <splash density="xxhdpi" src="www/res/screen/android/xxhdpi.png" />
-    <splash density="xxxhdpi" src="www/res/screen/android/xxxhdpi.png" />
+    <icon qualifier="ldpi" src="res/icon/android/icon-36-ldpi.png" />
+    <icon qualifier="mdpi" src="res/icon/android/icon-48-mdpi.png" />
+    <icon qualifier="hdpi" src="res/icon/android/icon-72-hdpi.png" />
+    <icon qualifier="xhdpi" src="res/icon/android/icon-96-xhdpi.png" />
+    <splash qualifier="ldpi" src="res/screen/android/ldpi.png" />
+    <splash qualifier="ldpi" src="res/screen/android/mdpi.png" />
+    <splash qualifier="ldpi" src="res/screen/android/hdpi.png" />
+    <splash dqualifier="ldpi" src="res/screen/android/xhdpi.png" />
+    <splash density="xxhdpi" src="res/screen/android/xxhdpi.png" />
+    <splash density="xxxhdpi" src="res/screen/android/xxxhdpi.png" />
+    <splash src="res/screen/android/screen-ldpi-portrait.png"  qualifier="port-ldpi" />
+    <splash src="res/screen/android/screen-mdpi-portrait.png"  qualifier="port-mdpi" />
+    <splash src="res/screen/android/screen-hdpi-portrait.png"  qualifier="port-hdpi" />
+    <splash src="res/screen/android/screen-xhdpi-portrait.png" qualifier="port-xhdpi" />
+    <splash src="res/screen/android/screen-ldpi-landscape.png"  qualifier="land-ldpi" />
+    <splash src="res/screen/android/screen-mdpi-landscape.png"  qualifier="land-mdpi" />
+    <splash src="res/screen/android/screen-hdpi-landscape.png"  qualifier="land-hdpi" />
+    <splash src="res/screen/android/screen-xhdpi-landscape.png" qualifier="land-xhdpi" />
   </platform>
   <access origin="*"/>
   <allow-navigation href="http://*/*" />
