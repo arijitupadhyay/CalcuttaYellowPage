@@ -31,6 +31,8 @@
   		<icon src="icon.png" />
   </platform>
   <access origin="*"/>
+  <allow-navigation href="http://*/*" />
+  <allow-navigation href="https://*/*" />
   <allow-intent href="http://*/*" />
   <allow-intent href="https://*/*" />
   <allow-intent href="mailto:*" />
