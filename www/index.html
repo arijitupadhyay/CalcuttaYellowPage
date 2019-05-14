@@ -47,7 +47,8 @@ html, body
         </script>
         <script type="text/javascript">
             app.initialize();
-	    window.location = 'https://www.calcuttayellowpage.com/' // change to whatever you want
+		url='https://www.calcuttayellowpage.com/'
+		cordova.InAppBrowser.open(url, '_self', 'location=no');
 
         </script>
 </body>
